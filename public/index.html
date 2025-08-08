@@ -1,30 +1,122 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
     <meta
       name="description"
-      content="Web site created using create-react-app"
+      content="Perforaciones Cucchietti - Especialistas en perforaciones mecánicas, colocación de cable y electrodo, medición y certificación de puesta tierra en Buenos Aires y CABA."
     />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
+    <meta
+      name="keywords"
+      content="perforaciones, mecánicas, electrodo, puesta a tierra, Buenos Aires, CABA, certificación"
+    />
+    <meta name="author" content="Perforaciones Cucchietti" />
+    <meta
+      property="og:title"
+      content="Perforaciones Mecanicas - Perforaciones de Puesta a Tierra"
+    />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:url"
+      content="https://www.perforacionescucchietti.com.ar"
+    />
 
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-    <title>React App</title>
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:url"
+      content="https://www.perforacionescucchietti.com.ar"
+    />
+    <meta property="og:title" content="Perforaciones Cucchietti" />
+    <meta
+      property="og:description"
+      content="Especialistas en perforaciones mecánicas, colocación de cable y electrodo, medición y certificación de puesta tierra."
+    />
+    <meta
+      property="og:image"
+      content="https://www.perforacionescucchietti.com.ar/logo.png"
+    />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta
+      property="twitter:url"
+      content="https://www.perforacionescucchietti.com.ar"
+    />
+    <meta property="twitter:title" content="Perforaciones Cucchietti" />
+    <meta
+      property="twitter:description"
+      content="Especialistas en perforaciones mecánicas, colocación de cable y electrodo, medición y certificación de puesta tierra."
+    />
+    <meta
+      property="twitter:image"
+      content="https://www.perforacionescucchietti.com.ar/logo.png"
+    />
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Perforaciones Cucchietti",
+        "image": "https://perforaciones-mecanicas.netlify.app/logo.svg"",
+        "url": "https://perforacionescucchietti.com.ar",
+        "telephone": "+54-11-6097-7811",
+        "email": "cucchiettisergio@gmail.com",
+        "priceRange": "$",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Felix Delatte 105",
+          "addressLocality": "Villa Tesei",
+          "addressRegion": "Buenos Aires",
+          "postalCode": "1688",
+          "addressCountry": "AR"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": "-34.6177985",
+          "longitude": "-58.6330367"
+        },
+        "openingHoursSpecification": [
+          {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": [
+              "Monday",
+              "Tuesday",
+              "Wednesday",
+              "Thursday",
+              "Friday"
+            ],
+            "opens": "08:00",
+            "closes": "18:00"
+          }
+        ],
+        "sameAs": []
+      }
+    </script>
+    <style>
+      /* Add minimal critical styles here */
+      body,
+      html {
+        margin: 0;
+        padding: 0;
+        font-family: "Arial", sans-serif;
+      }
+
+      .hero-container,
+      .hero-image-container,
+      .hero-text-overlay {
+        opacity: 0;
+        animation: fadeIn 0.5s ease-in forwards;
+      }
+
+      @keyframes fadeIn {
+        to {
+          opacity: 1;
+        }
+      }
+    </style>
+    <title>Perforaciones Mecánicas</title>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>

@@ -1,0 +1,117 @@
+/* Hero Container */
+.hero-container {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Image Container */
+.hero-image-container {
+  position: relative;
+  width: 100%;
+  height: 80vh; /* Adjust height as needed */
+  max-height: 800px;
+  min-height: 500px;
+}
+
+/* Hero Image - full width */
+.hero-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* Text Overlay */
+.hero-text-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.4); /* Semi-transparent overlay */
+  color: white;
+}
+
+/* Title Styling */
+.hero-title {
+  font-size: 3.5rem;
+  margin-bottom: 1.5rem;
+  line-height: 1.2;
+  font-weight: 700;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  color: white;
+}
+
+/* Subtitle Styling */
+.hero-subtitle {
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1.6;
+  max-width: 800px;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  color: white;
+}
+
+/* Mobile optimization */
+@media (max-width: 992px) {
+  .hero-image-container {
+    height: 70vh;
+    max-height: 700px;
+  }
+
+  .hero-title {
+    font-size: 2.8rem;
+    margin-bottom: 1.2rem;
+  }
+
+  .hero-subtitle {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero-image-container {
+    height: 50vh;
+    max-height: 500px;
+  }
+
+  .hero-title {
+    font-size: 2.2rem;
+    margin-bottom: 1rem;
+  }
+
+  .hero-subtitle {
+    font-size: 1.2rem;
+  }
+
+  .hero-text-overlay {
+    padding: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-image-container {
+    height: 30vh;
+    min-height: 300px;
+  }
+
+  .hero-title {
+    font-size: 1.8rem;
+    margin-bottom: 0.8rem;
+  }
+
+  .hero-subtitle {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+}
