@@ -19,7 +19,6 @@ export default function Header({ toggleSection }) {
 
   return (
     <header className="header" role="navigation" aria-label="Menú principal">
-      <img src={Logo} alt="Perforaciones Cucchietti" />
       <button
         className="menu-toggle"
         aria-label="Abrir menú"
