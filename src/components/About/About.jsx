@@ -49,10 +49,10 @@ export default function About() {
       <div className="about-intro">
         <h2>QUIÉNES SOMOS</h2>
         <p>
-          Nuestra empresa cumple 33 años, contamos con personal de experiencia y
-          disposición al servicio. Durante este tiempo hemos realizado
-          perforaciones para cámaras subterráneas, plataformas, fosas de empalme
-          y subestaciones.
+          Perforaciones Cucchietti cumple 35 años, contamos con personal de
+          experiencia y disposición al servicio. Durante este tiempo hemos
+          realizado perforaciones para cámaras subterráneas, plataformas, fosas
+          de empalme y subestaciones.
         </p>
       </div>
 
